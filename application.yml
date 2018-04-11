@@ -1,0 +1,4 @@
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
